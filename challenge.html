@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+  </head>
+  <body>
+    <h1
+      style="background-color: red; color: white; padding: 10px; width: 300px"
+    >
+      Challenge_22.11.4678
+    </h1>
+    <table border="1">
+      <tr>
+        <th colspan="4" bgcolor="orange">Daftar Buku</th>
+      </tr>
+      <tr>
+        <td rowspan="4">
+          <img
+            src="https://openlibrary.telkomuniversity.ac.id/uploads/book/cover/20.21.2029.jpg"
+            width="100"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Judul</td>
+        <td>=</td>
+        <td>Web Progamming</td>
+      </tr>
+      <tr>
+        <td>Harga</td>
+        <td>=</td>
+        <td>Rp 245.000</td>
+      </tr>
+      <tr>
+        <td>Pengarang</td>
+        <td>=</td>
+        <td>Jhon Dean</td>
+      </tr>
+    </table>
+
+    <h1>Isilah Formulir Dibawah Ini!</h1>
+
+    <!-- start -->
+
+      <div style="border: 1px solid #ddd; padding: 20px; width: 500px;">
+        <form action="#">
+          <div style="margin-bottom: 15px;">
+            <label for="nama" style="display: block; margin-bottom: 5px;">Nama :</label>
+            <input type="text" id="nama" name="nama" style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <label for="password" style="display: block; margin-bottom: 5px;">Password :</label>
+            <input type="password" id="password" name="password" style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="jenis_kelamin" style="display: block; margin-bottom: 5px;">Jenis Kelamin:</label>
+            <br>
+            <input type="checkbox" id="jeniskelamin_lakilaki" name="lakilaki" value="Membaca">
+            <label for="hobi_membaca">Laki Laki</label>
+            <br>
+            <input type="checkbox" id="jeniskelamin_perempuan" name="perempuan" value="Menulis">
+            <label for="hobi_menulis">Perempuan</label>
+            
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="hobi" style="display: block; margin-bottom: 5px;">Hobi:</label>
+            <br>
+            <input type="checkbox" id="hobi_membaca" name="hobi[]" value="Membaca">
+            <label for="hobi_membaca">Membaca</label>
+            <br>
+            <input type="checkbox" id="hobi_menulis" name="hobi[]" value="Menulis">
+            <label for="hobi_menulis">Menulis</label>
+            <br>
+            <input type="checkbox" id="hobi_memancing" name="hobi[]" value="Memancing">
+            <label for="hobi_memancing">Memancing</label>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="asalkota" style="display: block; margin-bottom: 5px;">Asal Kota :</label>
+            <select id="asalkota" name="asal_kota" style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+              <option value="Laki-laki">Semarang</option>
+              <option value="Perempuan">Jogja</option>
+              <option value="Perempuan">Solo</option>
+            </select>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <label for="komentar" style="display: block; margin-bottom: 5px;">Komentar:</label>
+            <textarea id="komentar" name="komentar" style="width: 100%; padding: 5px; border: 1px solid #ccc;" rows="5"></textarea>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <button type="submit" style="background-color: #4caf50; color: white; padding: 10px 20px; border: 1px solid #4caf50; cursor: pointer;">Mulai Proses</button>
+          </div>
+        </form>
+    <!-- End -->
+  </body>
+</html>
